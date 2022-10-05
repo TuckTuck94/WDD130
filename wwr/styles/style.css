@@ -74,6 +74,7 @@ footer p {
 }   
 footer p a:hover {
     text-decoration: underline;
+    color: #3d3c3c;
 }
 .icon{
     width: 80px;
