@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap');
+
 body{
     background-color: #9F7B7D ;
+    font-family: 'Oswald', 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color:#BFA2A4
@@ -8,17 +17,24 @@ div {
     max-width: 1600px; 
     margin: 0 auto;
 }
+#logo_link{
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
     color: #3d3c3c;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #BFA2A4;
     color: #3d3c3c;
 }
 .home-title{
+    font-family: 'Oswald', 'Roboto', sans-serif;
+    font-size: 2em;
     color: #3d3c3c;
+    margin-top: 10px;
 }
 h4{
     color: #3d3c3c;
@@ -43,6 +59,10 @@ main section{
     background-color: #BFA2A4;
     color: #3d3c3c;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #E3DDDE;
@@ -50,20 +70,27 @@ main section{
 }
 .msg{
     background-color: #BFA2A4;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #3d3c3c;
 }
-.msg p{color: #3d3c3c;
+.msg p{
+    color: #3d3c3c;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #BFA2A4;
+    padding: 25px 50px;
+    margin-top: 200px; 
 }
 footer h3{
     color: #3d3c3c;
 }
 footer a{
-    color: #3d3c3c
+    color: #3d3c3c;
     text-decoration: none;
 }
 footer a:hover{
@@ -71,14 +98,32 @@ footer a:hover{
 }
 footer p {
     font-size: 1.2em;
+    
 }   
 footer p a:hover {
     text-decoration: underline;
     color: #3d3c3c;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #BFA2A4;
+}
+main section img {
+    box-sizing: border-box;
 }
