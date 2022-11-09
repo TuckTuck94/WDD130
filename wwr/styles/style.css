@@ -40,7 +40,7 @@ nav a {
     padding: 35px;
 }
 nav a:hover{
-    background-color: #BFA2A4;
+    background-color: #9F7B7D;
     color: #3d3c3c;
 }
 .home-title{
@@ -112,6 +112,77 @@ main section{
     color: #3d3c3c;
 }
 .msg p{
+    color: #3d3c3c;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.evening-river{
+    align: left;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: -1px;
+    margin-left: -500px;
+    
+}
+.evening-msg {
+    background-color: #BFA2A4;
+    margin-top: -381px;
+    margin-bottom: 2px;
+    margin-left: 555px;
+    line-height: 1.5em;
+    box-shadow: 5px, 5px, 10px #6f7364;
+    
+}
+.evening-msg h2{
+    color: #3d3c3c;
+}
+.evening-msg p{
+    color: #3d3c3c;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.desolation-river{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: -1106px;
+}
+.desolation-msg{
+        background-color: #BFA2A4;
+        margin-top: -480px;
+        margin-bottom: 105px;
+        margin-right: 501px;
+        margin-left: 50px;
+        line-height: 1.5em;
+        box-shadow: 5px, 5px, 10px #6f7364;
+}
+.desolation-msg h2{
+    color: #3d3c3c;
+}
+.desolation-msg p{
+    color: #3d3c3c;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.arizona-river{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: -1px;
+    margin-left: -500px;
+    
+}
+.arizona-msg {
+    background-color: #BFA2A4;
+    margin-top: -381px;
+    margin-bottom: 2px;
+    margin-left: 555px;
+    line-height: 1.5em;
+    box-shadow: 5px, 5px, 10px #6f7364;
+    
+}
+.arizona-msg h2{
+    color: #3d3c3c;
+}
+.arizona-msg p{
     color: #3d3c3c;
     font-size: .8em;
     padding-bottom: 15px;
