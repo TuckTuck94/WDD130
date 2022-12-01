@@ -19,30 +19,95 @@
             <a href="site-plan-disc.html">Site Plan</a>
         </nav>
     </header>
-    <div id="discsintro">
-        <section id="disc-intro-msg">
-            <h1 class="disc-title">My Favorite Courses</h1>
+    <div id="coursesintro">
+        <section id="courses-intro-msg">
+            <h1 class="courses-title">My Favorite Courses</h1>
             <h4>The Courses I Play</h4>
         </section>
     </div>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/Courses Near Author/rubygrant.jpg" style="width:100%">
+      <div class="text">Ruby Grant</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/Courses Near Author/lionspark.jpg" style="width:100%">
+      <div class="text">Northeast Lions Park</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/Courses Near Author/colonialestates.jpg" style="width:100%">
+      <div class="text">Colonial Estates</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="images/Courses Near Author/griffinpark.jpg" style="width:100%">
+        <div class="text">Griffin Park</div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
     <main class="home-grid">
         <section class="ruby-grant">
-            <img class="ruby-grant-img" src="images/Courses Near Author/rubygrant.jpg" alt="ruby grant">
             <h2>Ruby Grant</h2> 
             <p>Ruby Grant is the newest course that was established on December 4th, 2020. It's located on the I-35 Service Road in between Indian Hills Road and Tecumseh Road in Norman, OK. The entrance is north of a car dealership, next to a dog park. Ruby Grant has 18 holes and is a mixed use public park.</p>
         </section>
         <section class="lions-park">
-            <img class="lions-park-img" src="images/Courses Near Author/lionspark.jpg" alt="northeast lions park">
             <h2>Northeast Lions Park</h2> 
             <p>Established in 1976, Northeast Lions Park is one of the oldest courses in all of the US. With a good mix of open and wooded areas, this course is best for those wanting to learn the sport. The course has 18 holes, with Hole 3 dedicated to a player known as "Foggy" who loved the course til his death.</p>
         </section>
-        <section class="Colonial Estates">
-            <img class="colonial-img" src="images/Courses Near Author/colonialestates.jpg" alt="colonial estates">
+        <section class="colonial-estates">
             <h2>Colonial Estates</h2> 
             <p>Colonial Estates is the Second Oldest Course in Norman, OK. Established in 1990, it is a mixed course with open and wooded shots. While it's not difficult, many fairways play along or across a creek notorious for eating discs! If you're afraid of losing them, consider skipping holes 2, 11, and 13.</p>
         </section>
         <section class="griffin-memorial">
-            <img class="griffin-img" src="images/Courses Near Author/griffinpark.jpg" alt="griffin park">
             <h2>Griffin Memorial</h2> 
             <p>The course that offers the most challenge, in my personal opinion would have to be Griffin Memorial! Established in 2005 it has long fairways, open shots, and notoriously difficult wooded areas with trees that are guaranteed to make you bogey! If you can brave its difficulty, then the course is incredibly fun!</p>
         </section>
