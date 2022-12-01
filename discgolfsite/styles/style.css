@@ -86,7 +86,6 @@ div{
     align-self: center;
 }
 #awesome {
-    border: 10px solid #A3B18A;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
