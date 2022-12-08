@@ -61,7 +61,6 @@ h4, .courses-title{
 .ruby-grant, .ruby-grant p{
     text-align:center;
     background-color:#3A5A40;
-    font-size: 20pt;
 }
 .lions-park, .lions-park p{
     text-align:center;
@@ -235,4 +234,54 @@ footer{
     @keyframes fade {
       from {opacity: .4}
       to {opacity: 1}
+    }
+    .driver-img{
+        width: 40%;
+        
+    }
+    .disc-intro-msg{
+        align: center;
+        color: #DAD7CD;
+    }
+    .drivers{
+        background-color: #3A5A40;
+        box-shadow: 5px, 5px, 10px #DAD7CD;
+        
+    }
+    .drivers h2{
+        color: #DAD7CD;
+    }
+    .drivers p{
+        font-size: 1em;
+        padding-bottom: 15px;
+    }
+    .mid-range-img{
+        width: 40%;
+    }
+    .mid-range{
+            background-color: #3A5A40;
+            box-shadow: 5px, 5px, 10px #DAD7CD;
+    }
+    .mid-range h2{
+        color: #DAD7CD;
+    }
+    .mid-range p{
+        font-size: 1em;
+        padding-bottom: 15px;
+    }
+    .putters-img{
+        width: 40%;
+        
+    }
+    .putters{
+        background-color: #3A5A40;
+        box-shadow: 5px, 5px, 10px #DAD7CD;
+        
+    }
+    .putters h2{
+        color: #DAD7CD;
+    }
+    .putters p{
+        font-size: 1em;
+        padding-bottom: 15px;
     }
